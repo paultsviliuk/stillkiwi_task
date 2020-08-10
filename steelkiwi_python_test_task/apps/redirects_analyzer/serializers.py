@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import RedirectData
+from redirects_analyzer.models import RedirectData
 
 
 class RedirectUrlSerializer(serializers.ModelSerializer):

@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import RedirectData
+
+from redirects_analyzer.models import RedirectData
 
 
 @admin.register(RedirectData)
